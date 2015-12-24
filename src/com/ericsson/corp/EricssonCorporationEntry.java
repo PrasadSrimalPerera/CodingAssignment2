@@ -48,7 +48,7 @@ public class EricssonCorporationEntry {
 	 * Item ID increment represents the entry id, incremented with each entry adding.
 	 * At the initiation, this Id is initialized to the last document Id in the MongoDB collection
 	 */
-	private static int itemIDIncrment = EricssonCorporationContextListener.getLastID();;
+	private static int itemIDIncrment = EricssonCorporationContextListener.getLastID();
 
 	/**
 	 * Retrieve next id for the document entry
