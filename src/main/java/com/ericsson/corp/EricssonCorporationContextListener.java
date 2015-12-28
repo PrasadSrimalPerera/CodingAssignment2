@@ -69,10 +69,10 @@ public class EricssonCorporationContextListener implements ServletContextListene
 			mongoClient = new MongoClient(servletContext.getInitParameter(SERVER),
 					Integer.parseInt(servletContext.getInitParameter(SERVER_PORT)));
 			mongoDB = mongoClient.getDB(servletContext.getInitParameter(DATABASE));
-		    mongoCollection = mongoDB.getCollection(servletContext.getInitParameter(COLLECTION));
-		    
-		    // Resolve latest id in collection
-		    EricssonCorporationEntry.initItemIDIncrment(getLastID());
+			mongoCollection = mongoDB.getCollection(servletContext.getInitParameter(COLLECTION));
+
+			// Resolve latest id in collection
+			EricssonCorporationEntry.initItemIDIncrment(getLastID());
 		} catch (UnknownHostException e) {
 			e.printStackTrace();
 		}
