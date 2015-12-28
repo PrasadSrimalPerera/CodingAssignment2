@@ -1,3 +1,4 @@
-/home/prasad/workspace_j2ee/EricssonCorporationEntryService/src/com/ericsson/corp/EricssonCorporationEntryService.java
-/home/prasad/workspace_j2ee/EricssonCorporationEntryService/src/com/ericsson/corp/EricssonCorporationContextListener.java
-/home/prasad/workspace_j2ee/EricssonCorporationEntryService/src/com/ericsson/corp/EricssonCorporationEntry.java
+/home/prasad/workspace_j2ee/EricssonCorporationEntryService/src/main/java/com/ericsson/corp/EricssonCorporationEntryService.java
+/home/prasad/workspace_j2ee/EricssonCorporationEntryService/src/main/java/com/ericsson/corp/EricssonCorporationEntry.java
+/home/prasad/workspace_j2ee/EricssonCorporationEntryService/src/test/java/com/ericsson/corp/EricssonCorporationEntryServiceTest.java
+/home/prasad/workspace_j2ee/EricssonCorporationEntryService/src/main/java/com/ericsson/corp/EricssonCorporationContextListener.java
